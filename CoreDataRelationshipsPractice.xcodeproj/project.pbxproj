@@ -11,6 +11,7 @@
 		E30C57A6267B01A9007890E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C57A5267B01A9007890E8 /* ContentView.swift */; };
 		E30C57A8267B01AA007890E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30C57A7267B01AA007890E8 /* Assets.xcassets */; };
 		E30C57AB267B01AA007890E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30C57AA267B01AA007890E8 /* Preview Assets.xcassets */; };
+		E30C57B4267B036E007890E8 /* CoreataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E30C57B2267B036E007890E8 /* CoreataContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E30C57A7267B01AA007890E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E30C57AA267B01AA007890E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E30C57AC267B01AA007890E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E30C57B3267B036E007890E8 /* CoreataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreataContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E30C57A7267B01AA007890E8 /* Assets.xcassets */,
 				E30C57AC267B01AA007890E8 /* Info.plist */,
 				E30C57A9267B01AA007890E8 /* Preview Content */,
+				E30C57B2267B036E007890E8 /* CoreataContainer.xcdatamodeld */,
 			);
 			path = CoreDataRelationshipsPractice;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E30C57A6267B01A9007890E8 /* ContentView.swift in Sources */,
+				E30C57B4267B036E007890E8 /* CoreataContainer.xcdatamodeld in Sources */,
 				E30C57A4267B01A9007890E8 /* CoreDataRelationshipsPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +332,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E30C57B2267B036E007890E8 /* CoreataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E30C57B3267B036E007890E8 /* CoreataContainer.xcdatamodel */,
+			);
+			currentVersion = E30C57B3267B036E007890E8 /* CoreataContainer.xcdatamodel */;
+			path = CoreataContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E30C5798267B01A9007890E8 /* Project object */;
 }

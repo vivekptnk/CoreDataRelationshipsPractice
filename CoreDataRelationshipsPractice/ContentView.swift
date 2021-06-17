@@ -8,6 +8,14 @@
 import SwiftUI
 import CoreData
 
+
+
+// entities
+// business entity
+// departmentEntity
+// employmentEntity
+
+
 class CoreDataManager {
     static let instance = CoreDataManager()
     
@@ -15,7 +23,7 @@ class CoreDataManager {
     let context : NSManagedObjectContext
     
     init() {
-        container = NSPersistentContainer(name: "")
+        container = NSPersistentContainer(name: "CoreataContainer")
         container.loadPersistentStores { description, error in
             if let error = error {
                 print("error loading Core Data.\(error)")
